@@ -7,7 +7,7 @@ export const Container = styled.div`
 `;
 export const ContainerCenter = styled.div`
   margin-top: 3rem;
-  width: 80%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   /* justify-content: center;
@@ -45,4 +45,13 @@ export const ContainerUrls = styled.div`
 export const ContainerImg = styled.div`
   display: flex;
   justify-content: center;
+`;
+export const ContainerInputButton = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & button {
+    margin-top: 1rem;
+  }
 `;
